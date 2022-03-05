@@ -10,7 +10,8 @@ if [ -z "$(git status --porcelain)" ]; then
 	if [[ $REPLY =~ ^[Yy]$ ]]
 	then
 		# do dangerous stuff
-		echo "This is where it would be"
+		npx standard-version
+		git push --follow-tags origin master
 	else
 		echo "okay, never mind then..."
 		exit 2
