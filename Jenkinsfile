@@ -44,7 +44,7 @@ pipeline {
 					def major = versions[0]
 					def minor = versions[0] + '.' + versions[1]
 					def patch = version.trim()
-					docker.withRegistry("https://ghcr.io", 'github-packages-ytdl') {
+					docker.withRegistry("https://ghcr.io", 'github-poetry-image') {
 						newImage.push("latest")
 						newImage.push(major)
 						newImage.push(minor)
