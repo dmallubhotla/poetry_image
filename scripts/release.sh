@@ -5,7 +5,7 @@ if [ -z "$(git status --porcelain)" ]; then
 	# Working directory clean
 	echo "Doing a dry run..."
 	npx standard-version --dry-run
-	read -p "Create commit for version $version? " -n 1 -r
+	read -p "Does that look good? [y/N] " -n 1 -r
 	echo    # (optional) move to a new line
 	if [[ $REPLY =~ ^[Yy]$ ]]
 	then
