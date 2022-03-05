@@ -1,10 +1,9 @@
-// .versionrc
 {
   "bumpFiles": [
     {
       "filename": ".version",
-      // The `plain-text` updater assumes the file contents represents the version.
       "type": "plain-text"
     }
-  ]
+  ],
+  "sign": true
 }
