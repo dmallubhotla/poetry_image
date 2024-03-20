@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/dmallubhotla/poetry_image/compare/v1.2.0...v1.2.1) (2024-03-20)
+
+
+### Bug Fixes
+
+* trying use 3.9 ([0a6e5a0](https://github.com/dmallubhotla/poetry_image/commit/0a6e5a014c8462311c93d330f54e0b1c8843568b))
+
 ## [1.2.0](https://github.com/dmallubhotla/poetry_image/compare/v1.1.4...v1.2.0) (2024-03-20)
 
 
