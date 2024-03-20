@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM python:3.9
 
 ENV PATH=/root/.local/bin:$PATH \
     POETRY_VERSION=1.8.2
